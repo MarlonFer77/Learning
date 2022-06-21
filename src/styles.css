@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+  height: 100%; 
+}
+body { 
+  background-color: #424242;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+.container {
+  height: calc(100vh - 5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.container form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-radio-button {
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  color: rgb(126, 126, 252);
+}
+
+mat-toolbar-row {
+  justify-content: center;
+}
+
+section {
+    margin-bottom: 16px;
+}
