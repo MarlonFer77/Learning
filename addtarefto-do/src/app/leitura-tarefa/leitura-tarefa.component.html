@@ -1,0 +1,10 @@
+<div class="bloco">
+    <input type="text" placeholder="Adicione uma tarefa" #ler>
+<br>
+<br>
+<button class="add" (click)="addTarefa(ler.value)">Adicionar</button>
+
+<ul *ngFor="let leitura of tarefa" *ngIf="del == button">
+    <li> {{ leitura }} <button class="delete" type="button" (input)="leitura" #del>&times;</button></li>
+</ul>
+</div>
