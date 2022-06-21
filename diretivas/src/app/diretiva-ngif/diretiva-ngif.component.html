@@ -1,0 +1,14 @@
+<h2>Ng If</h2>
+
+<p *ngIf="checkbox.checked == true; else alternativo">
+    Marcado
+</p>
+
+<ng-template #alternativo>
+    <p>
+        <i>Desmarcado</i>
+    </p>
+</ng-template>
+
+<label for="">Mostrar/Remover parágrafo</label>
+<input type="checkbox" checked="true" #checkbox (input)="checkbox">

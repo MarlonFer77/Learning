@@ -1,0 +1,17 @@
+.sucesso {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.aviso {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+.perigo {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}

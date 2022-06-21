@@ -1,0 +1,9 @@
+<div class="cartao" [style]="gerarCssDoCartao()">
+    <h2 style="border-bottom: 3px solid red; text-align: center;">{{ tituloCartao }}</h2>
+
+    <p>
+        <ng-content></ng-content>
+    </p>
+
+    <button class="del" (click)="emitirDelecaoDoCartao()">&times;</button>
+</div>

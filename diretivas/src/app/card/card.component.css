@@ -1,0 +1,11 @@
+.cartao {
+    max-width: 300px;
+    max-height: 350px;
+    border: 3px solid orangered;
+    overflow-y: auto;
+  }
+
+  .del {
+    margin-top:90%;
+    margin-left: 90%;
+  }
