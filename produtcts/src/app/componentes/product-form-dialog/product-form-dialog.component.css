@@ -1,0 +1,11 @@
+.formRegister{
+    width: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+mat-form-field {
+    margin-bottom: 30px;
+}

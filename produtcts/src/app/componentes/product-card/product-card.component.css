@@ -1,0 +1,25 @@
+img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.imgs {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+mat-card {
+    width: 300px;
+    background-color: rgb(27, 27, 59);
+    border-radius: 15px;
+}
+
+#comprando:hover {
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}

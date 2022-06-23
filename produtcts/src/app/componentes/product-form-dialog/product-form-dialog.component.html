@@ -1,0 +1,40 @@
+<h1 mat-dialog-title>Novo Produto</h1>
+<section mat-dialog-content class="formRegister">
+    <form [formGroup]="productForm">
+      <mat-form-field appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput
+        type="text" 
+        matInput
+        name="productName"
+        formControlName="name"
+        >
+        <mat-error></mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+          <mat-label>Preço</mat-label>
+          <input matInput
+          type="number" 
+          matInput
+          name="productPrice"
+          formControlName="price"
+          >
+          <mat-error></mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Foto</mat-label>
+        <input matInput
+        type="text" 
+        matInput
+        name="productPicture"
+        formControlName="picture"
+        >
+        <mat-error></mat-error>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" [mat-dialog-close]="productForm.value" [disabled]="productForm.invalid"><mat-icon>add</mat-icon></button>
+      <button mat-raised-button color="link" mat-dialog-close>Cancel</button>
+    </form>
+</section>
